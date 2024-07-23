@@ -253,3 +253,6 @@ async def tile3_handler(message : Message , state : FSMContext):
      await message.answer("Ma'lumotlaringiz qabul qilindi.Tez orada siz bilan bog'lanamiz hurmatli mijoz" , reply_markup=boshmenyu)
   
      malumotlari.clear()
+
+
+    
