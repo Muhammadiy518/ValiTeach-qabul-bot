@@ -22,8 +22,8 @@ boshmenyu = ReplyKeyboardMarkup(
 Kurslar = ReplyKeyboardMarkup(
     keyboard=[
         [
-            KeyboardButton(text="Dasturlash"),
-            KeyboardButton(text="Kompyuter savodxonligi")
+            KeyboardButton(text="Kompyuter savodxonligi"),
+            KeyboardButton(text="Dasturlash")
         ],
         [
             KeyboardButton(text="Grafik dizayn")
@@ -32,6 +32,31 @@ Kurslar = ReplyKeyboardMarkup(
 
             KeyboardButton(text="🔙 Orqaga")
         ]
+    ],
+    resize_keyboard=True
+)
+
+
+
+
+Kurslar2 = ReplyKeyboardMarkup(
+    keyboard=[
+        [
+            KeyboardButton(text="D.Ch.j "),
+            KeyboardButton(text="S.P.Sh ")
+        ]
+    ],
+    resize_keyboard=True
+)
+
+
+
+Kurslar3 = ReplyKeyboardMarkup(
+    keyboard=[
+        [
+            KeyboardButton(text="Abetdan oldingi darslar"),
+            KeyboardButton(text="Abetdan keyingi darslar"),
+        ],
     ],
     resize_keyboard=True
 )

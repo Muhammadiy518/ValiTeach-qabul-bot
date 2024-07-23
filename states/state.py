@@ -11,4 +11,5 @@ class Register(StatesGroup):
     age = State()
     phone_number = State()
     phone_number2 = State()
+    week = State()
     time = State()    
